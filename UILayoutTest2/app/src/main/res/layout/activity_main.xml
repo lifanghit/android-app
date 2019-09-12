@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type something" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/jump_relative_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jump Relative"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/jump_frame_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jump Frame"
+        android:textAllCaps="false"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/jump_percent_frame_activity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Jump Percent Frame"-->
+        <!--android:textAllCaps="false"/>-->
+
+</LinearLayout>
